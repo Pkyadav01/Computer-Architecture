@@ -1,0 +1,7 @@
+v 4
+file . "buffer_tb.vhd" "914154eb8776b6b21ce1af00e31fea7556a5833e" "20260520023104.780":
+  entity buffer_tb at 1( 0) + 0 on 13;
+  architecture simulation of buffer_tb at 6( 122) + 0 on 14;
+file . "buffer.vhd" "8450467d33fcf030b30531ee94995e5512fe5d6e" "20260520023104.768":
+  entity my_buffer at 2( 59) + 0 on 11;
+  architecture dataflow of my_buffer at 12( 289) + 0 on 12;
