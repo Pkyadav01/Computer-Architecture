@@ -1,0 +1,53 @@
+$date
+  Tue May 26 13:53:30 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module decoder_tb $end
+$var reg 2 ! a[1:0] $end
+$var reg 1 " en $end
+$var reg 4 # y[3:0] $end
+$scope module dut $end
+$var reg 2 $ a[1:0] $end
+$var reg 1 % en $end
+$var reg 4 & y[3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00 !
+1"
+b0001 #
+b00 $
+1%
+b0001 &
+#10000000
+b01 !
+b0010 #
+b01 $
+b0010 &
+#20000000
+b10 !
+b0100 #
+b10 $
+b0100 &
+#30000000
+b11 !
+b1000 #
+b11 $
+b1000 &
+#40000000
+b10 !
+0"
+b0000 #
+b10 $
+0%
+b0000 &
